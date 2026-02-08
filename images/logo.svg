@@ -1,0 +1,22 @@
+
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="metalGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F6F7"/>
+      <stop offset="100%" stop-color="#C7CBD1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Symbol -->
+  <rect x="50" y="110" width="40" height="40" fill="#F5F6F7"/>
+  <polygon points="100,150 160,210 160,150" fill="url(#metalGradient)"/>
+
+  <!-- Wordmark -->
+  <text x="190" y="185"
+        font-family="Canela, Playfair Display, Times New Roman, serif"
+        font-size="120"
+        letter-spacing="4"
+        fill="#F5F6F7">
+    ARTIFEX
+  </text>
+</svg>
