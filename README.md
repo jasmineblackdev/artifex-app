@@ -12,7 +12,7 @@ From brief to design direction in seconds.
 [![Figma](https://img.shields.io/badge/Figma-Design_System-F24E1E?style=flat-square&logo=figma&logoColor=white)](your-figma-url)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-[View Demo](https://jasmineblackdev.github.io/artifex-app/) [Report Bug](#) · [Request Feature](#)
+[View Demo](https://jasmineblackdev.github.io/artifex-app/) · [Report Bug](#) · [Request Feature](#)
 
 </div>
 
