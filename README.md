@@ -198,13 +198,12 @@ This project demonstrates:
 ## 📸 Screenshots
 
 ### Landing Page
-![Landing Page](assets/screenshots/landing.png)
+<img width="1919" height="1076" alt="Screenshot 2026-02-08 at 2 33 08 PM" src="https://github.com/user-attachments/assets/912ff816-1089-4230-ba79-02b863c3f5c1" />
+
 
 ### Output Preview
-![Direction Example](assets/screenshots/direction-example.png)
+<img width="1919" height="1076" alt="Screenshot 2026-02-08 at 2 32 33 PM" src="https://github.com/user-attachments/assets/83fdc9e0-cc34-4c03-9a7e-c2e23d0a746a" />
 
-### Dashboard
-![Dashboard](assets/screenshots/dashboard.png)
 
 ---
 
@@ -227,15 +226,11 @@ This project demonstrates:
 
 ---
 
-## 🤝 Contributing
+## 🤝 Contributors
 
-This is a portfolio project, but feedback and suggestions are welcome!
+- Jasmine Black — Product Design, UI/UX, Strategy
+- Jamone kelly — Frontend / Backend Development
 
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ---
 
@@ -251,8 +246,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 I'm a designer who codes, currently transitioning from graphic design to front-end development. Artifex represents my approach to solving real problems I've experienced: the gap between strategic thinking and visual execution in design work.
 
-- Portfolio: [your-portfolio.com](https://jasmineblack.vercel.app)
-- LinkedIn: [linkedin.com/in/yourprofile](https://inkedin.com/in/Artist89 )
+- Portfolio: [jasmineblack.vercel.app](https://jasmineblack.vercel.app)
+- LinkedIn: [linkedin.com/in/Artist89](https://inkedin.com/in/Artist89)
 - Email: jazzblackartist@gmail.com
 
 ---
