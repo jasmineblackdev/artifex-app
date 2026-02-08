@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artifex — AI-Powered Creative Strategy Engine</title>
+  <meta name="description" content="From brief to design direction instantly. Transform project briefs into strategic visual directions with mood boards, color systems, and typography.">
+  <meta name="author" content="Jasmine">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Artifex — From Brief to Design Direction">
+  <meta property="og:description" content="AI-powered creative strategy engine that transforms briefs into clear visual directions.">
+  <meta property="og:type" content="website">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html">
+        <img src="images/logo.svg" alt="Artifex Logo" class="logo">
+      </a>
+      <ul class="nav-links">
+        <li><a href="product.html">Product</a></li>
+        <li><a href="how-it-works.html">How It Works</a></li>
+        <li><a href="examples.html">Examples</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="get-started.html" class="btn btn-primary">Get Started</a></li>
+      </ul>
+      <button class="mobile-menu-btn" aria-label="Toggle menu">☰</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section" style="background-image: url('images/hero-bg.jpg'); background-size: cover; background-position: center;">
+    <div style="position: absolute; inset: 0; background: linear-gradient(135deg, hsl(220 99% 61% / 0.15), hsl(260 80% 60% / 0.08), transparent);"></div>
+    <div style="position: absolute; inset: 0; background-color: var(--background); opacity: 0.6;"></div>
+    <div class="container hero-content" style="position: relative; z-index: 1;">
+      <div style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.375rem 1rem; background: hsl(222 22% 8% / 0.6); border: 1px solid var(--border); border-radius: 2rem; font-size: 0.75rem; font-weight: 500; color: var(--muted-foreground); backdrop-filter: blur(8px); margin-bottom: 1.5rem;">
+        <span style="width: 0.375rem; height: 0.375rem; background-color: var(--primary); border-radius: 50%;"></span>
+        AI-Powered Creative Strategy Engine
+      </div>
+      <h1 class="hero-title font-display">
+        From brief to design direction — <span class="text-gradient">instantly.</span>
+      </h1>
+      <p class="hero-description">
+        Artifex transforms project briefs into clear visual directions with mood boards, color systems, and typography — backed by strategy, not guesswork.
+      </p>
+      <div class="hero-buttons">
+        <a href="get-started.html" class="btn btn-primary btn-lg shadow-glow">
+          Generate Design Directions →
+        </a>
+        <a href="examples.html" class="btn btn-outline btn-lg">
+          ▶ View Example Output
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section id="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tagline">How It Works</p>
+        <h2 class="section-title font-display">Three simple steps</h2>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card fade-in">
+          <div class="step-number">1</div>
+          <h3 class="step-title font-display">Input Your Brief</h3>
+          <p class="step-description">
+            Define your product, audience, tone, and goals.
+          </p>
+        </div>
+        <div class="step-card fade-in">
+          <div class="step-number">2</div>
+          <h3 class="step-title font-display">Generate Directions</h3>
+          <p class="step-description">
+            Artifex analyzes strategy and aesthetics together.
+          </p>
+        </div>
+        <div class="step-card fade-in">
+          <div class="step-number">3</div>
+          <h3 class="step-title font-display">Apply or Export</h3>
+          <p class="step-description">
+            Use client-ready outputs immediately.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Output Preview Section -->
+  <section id="examples">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tagline">Example Output</p>
+        <h2 class="section-title font-display">See what Artifex generates</h2>
+        <p class="section-description">
+          Each direction includes a curated mood board, professional color palette, typography pairing, and strategic rationale.
+        </p>
+      </div>
+      <div class="grid grid-3">
+        <div class="card">
+          <h3 class="card-title font-display">Minimal Authority</h3>
+          <div style="height: 200px; background: linear-gradient(135deg, #f5f6f7 0%, #c7cbd1 100%); border-radius: 0.75rem; margin: 1rem 0;"></div>
+          <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
+            <div style="width: 40px; height: 40px; background: #0B0D10; border-radius: 0.5rem;"></div>
+            <div style="width: 40px; height: 40px; background: #151822; border-radius: 0.5rem;"></div>
+            <div style="width: 40px; height: 40px; background: #3A7AFE; border-radius: 0.5rem;"></div>
+            <div style="width: 40px; height: 40px; background: #F5F6F7; border-radius: 0.5rem;"></div>
+          </div>
+          <p class="card-description" style="font-size: 0.8125rem; margin-bottom: 0.75rem;">
+            <strong>Typography:</strong> DM Serif Display + Inter
+          </p>
+          <p class="card-description">
+            Designed to convey trust, clarity, and confidence for B2B audiences. Clean lines and restrained palette establish professional credibility.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title font-display">Warm Kinetic</h3>
+          <div style="height: 200px; background: linear-gradient(135deg, #FF6B35 0%, #F7931E 100%); border-radius: 0.75rem; margin: 1rem 0;"></div>
+          <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
+            <div style="width: 40px; height: 40px; background: #FF6B35; border-radius: 0.5rem;"></div>
+            <div style="width: 40px; height: 40px; background: #F7931E; border-radius: 0.5rem;"></div>
+            <div style="width: 40px; height: 40px; background: #FFC857; border-radius: 0.5rem;"></div>
+            <div style="width: 40px; height: 40px; background: #2E2E2E; border-radius: 0.5rem;"></div>
+          </div>
+          <p class="card-description" style="font-size: 0.8125rem; margin-bottom: 0.75rem;">
+            <strong>Typography:</strong> Outfit + Work Sans
+          </p>
+          <p class="card-description">
+            Energetic and approachable direction for fitness and wellness brands. Dynamic color palette creates movement and motivation.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title font-display">Neo Editorial</h3>
+          <div style="height: 200px; background: linear-gradient(135deg, #1a1a1a 0%, #4a4a4a 100%); border-radius: 0.75rem; margin: 1rem 0;"></div>
+          <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
+            <div style="width: 40px; height: 40px; background: #1a1a1a; border-radius: 0.5rem;"></div>
+            <div style="width: 40px; height: 40px; background: #4a4a4a; border-radius: 0.5rem;"></div>
+            <div style="width: 40px; height: 40px; background: #d4af37; border-radius: 0.5rem;"></div>
+            <div style="width: 40px; height: 40px; background: #f8f8f8; border-radius: 0.5rem;"></div>
+          </div>
+          <p class="card-description" style="font-size: 0.8125rem; margin-bottom: 0.75rem;">
+            <strong>Typography:</strong> Playfair Display + Lato
+          </p>
+          <p class="card-description">
+            Sophisticated direction for luxury and premium brands. Editorial typography with refined color choices signal elegance and exclusivity.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Differentiation Section -->
+  <section id="differentiation">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tagline">Why Artifex</p>
+        <h2 class="section-title font-display">Other tools show inspiration.<br>Artifex shows direction.</h2>
+        <p class="section-description">
+          Design isn't about what looks good — it's about what works. Artifex helps you make intentional design decisions backed by strategy, not guesswork.
+        </p>
+      </div>
+      <div class="comparison-table">
+        <table>
+          <thead>
+            <tr>
+              <th>Other Tools</th>
+              <th>Artifex</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Random inspiration</td>
+              <td>Strategy-backed direction</td>
+            </tr>
+            <tr>
+              <td>Generic templates</td>
+              <td>Custom per brief</td>
+            </tr>
+            <tr>
+              <td>No explanation</td>
+              <td>Client-ready rationale</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Audience Section -->
+  <section id="audience">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tagline">Who It's For</p>
+        <h2 class="section-title font-display">Built for modern creatives</h2>
+      </div>
+      <div class="grid grid-2">
+        <div class="card">
+          <div class="card-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+              <path d="M2 17l10 5 10-5"/>
+              <path d="M2 12l10 5 10-5"/>
+            </svg>
+          </div>
+          <h3 class="card-title font-display">Designers</h3>
+          <p class="card-description">
+            Eliminate blank-canvas paralysis and speed up your ideation process with strategic visual directions.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M12 6v6l4 2"/>
+            </svg>
+          </div>
+          <h3 class="card-title font-display">Founders</h3>
+          <p class="card-description">
+            Get professional design direction without hiring an agency. Perfect for MVPs and early-stage products.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+            </svg>
+          </div>
+          <h3 class="card-title font-display">Agencies</h3>
+          <p class="card-description">
+            Generate multiple client-ready concepts in minutes. Streamline your creative process and win more pitches.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+            </svg>
+          </div>
+          <h3 class="card-title font-display">Students</h3>
+          <p class="card-description">
+            Learn the strategic reasoning behind design decisions. Build portfolio projects with professional direction.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tagline">Pricing</p>
+        <h2 class="section-title font-display">Choose your plan</h2>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <h3 class="pricing-plan font-display">Free</h3>
+          <div class="pricing-price">$0</div>
+          <p class="pricing-period">Forever free</p>
+          <ul class="pricing-features">
+            <li>3 directions per month</li>
+            <li>Basic mood boards</li>
+            <li>Color palettes</li>
+            <li>Typography pairings</li>
+            <li>Public projects only</li>
+          </ul>
+          <a href="get-started.html" class="btn btn-outline" style="width: 100%;">Get Started</a>
+        </div>
+
+        <div class="pricing-card featured">
+          <div class="pricing-badge">Most Popular</div>
+          <h3 class="pricing-plan font-display">Pro</h3>
+          <div class="pricing-price">$29</div>
+          <p class="pricing-period">per month</p>
+          <ul class="pricing-features">
+            <li>Unlimited projects</li>
+            <li>Full exports (PNG, HEX)</li>
+            <li>Saved directions library</li>
+            <li>Priority generation</li>
+            <li>Private projects</li>
+            <li>Strategy explanations</li>
+          </ul>
+          <a href="get-started.html" class="btn btn-primary shadow-glow" style="width: 100%;">Upgrade to Pro</a>
+        </div>
+
+        <div class="pricing-card">
+          <h3 class="pricing-plan font-display">Studio</h3>
+          <div class="pricing-price">$99</div>
+          <p class="pricing-period">per month</p>
+          <ul class="pricing-features">
+            <li>Everything in Pro</li>
+            <li>Team collaboration</li>
+            <li>Shared libraries</li>
+            <li>Client-ready exports</li>
+            <li>Custom branding</li>
+            <li>Priority support</li>
+          </ul>
+          <a href="get-started.html" class="btn btn-outline" style="width: 100%;">Contact Sales</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tagline">About Artifex</p>
+        <h2 class="section-title font-display">Strategy-first design philosophy</h2>
+      </div>
+      <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+        <p style="font-size: 1.125rem; color: var(--muted-foreground); line-height: 1.8; margin-bottom: 1.5rem;">
+          Artifex was built on the belief that great design starts with clarity — not trends. We believe AI should be a creative partner that helps you think more strategically, not a replacement for your creative process.
+        </p>
+        <p style="font-size: 1.125rem; color: var(--muted-foreground); line-height: 1.8;">
+          Built for modern workflows, Artifex helps designers, founders, and agencies move from brief to direction with confidence and speed.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section id="cta" style="background: linear-gradient(135deg, hsl(220 99% 61% / 0.1), transparent);">
+    <div class="container" style="text-align: center;">
+      <h2 class="section-title font-display" style="margin-bottom: 1rem;">
+        Design with intention.
+      </h2>
+      <p style="font-size: 1.125rem; color: var(--muted-foreground); max-width: 600px; margin: 0 auto 2rem;">
+        Start creating strategic visual directions that you can actually explain to clients.
+      </p>
+      <a href="get-started.html" class="btn btn-primary btn-lg shadow-glow">
+        Start with Artifex →
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section" style="grid-column: span 2;">
+        <img src="images/logo.svg" alt="Artifex Logo" class="logo" style="margin-bottom: 1rem;">
+        <p style="color: var(--muted-foreground); font-size: 0.875rem; max-width: 300px;">
+          AI-powered creative strategy engine that transforms project briefs into clear visual directions.
+        </p>
+      </div>
+      <div class="footer-section">
+        <h3 class="font-display">Product</h3>
+        <ul class="footer-links">
+          <li><a href="product.html">Features</a></li>
+          <li><a href="how-it-works.html">How It Works</a></li>
+          <li><a href="examples.html">Examples</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="get-started.html">Get Started</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3 class="font-display">Company</h3>
+        <ul class="footer-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="legal.html">Privacy</a></li>
+          <li><a href="legal.html">Terms</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3 class="font-display">Connect</h3>
+        <ul class="footer-links">
+          <li><a href="mailto:hello@artifex.design">Email</a></li>
+          <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+          <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Artifex. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Chat Widget Placeholder -->
+  <div class="chat-widget">
+    <button class="chat-button" aria-label="Open chat">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
