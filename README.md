@@ -1,256 +1,272 @@
-# Artifex — Vanilla HTML/CSS/JavaScript Version
+# Artifex
 
-This is the vanilla HTML, CSS, and JavaScript conversion of the Artifex React project. No build tools, no dependencies — just clean, standards-compliant web technologies.
+<div align="center">
 
-## 📁 Project Structure
+![Artifex Logo](https://img.shields.io/badge/Artifex-Creative_Strategy_Engine-3A7AFE?style=for-the-badge)
 
-```
-artifex-vanilla/
-├── index.html              # Landing page
-├── product.html            # Product details page
-├── examples.html           # Examples gallery
-├── pricing.html            # Pricing page
-├── about.html              # About page
-├── legal.html              # Legal/Terms page
-├── get-started.html        # Multi-step form for creating directions
-├── css/
-│   └── styles.css          # All styles (converted from Tailwind)
-├── js/
-│   ├── main.js             # Global JavaScript (navigation, animations)
-│   └── get-started.js      # Form logic for get-started page
-└── images/
-    └── logo.svg            # Artifex logo
-```
+**AI-Powered Creative Strategy Engine**
 
-## 🚀 Getting Started
+From brief to design direction in seconds.
 
-### No Build Required
+[![Portfolio](https://img.shields.io/badge/Portfolio-View_Live-0B0D10?style=flat-square)](your-portfolio-url)
+[![Figma](https://img.shields.io/badge/Figma-Design_System-F24E1E?style=flat-square&logo=figma&logoColor=white)](your-figma-url)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-Simply open `index.html` in your browser or serve via any web server:
+🔗 [Live Demo](https://jasmineblackdev.github.io/artifex-app/) · 📘 [Documentation](docs/)
 
-**Option 1: Direct Open**
-```bash
-# Just double-click index.html or open it in your browser
-open index.html
-```
 
-**Option 2: Python Server**
-```bash
-python -m http.server 8000
-# Visit http://localhost:8000
-```
-
-**Option 3: PHP Server**
-```bash
-php -S localhost:8000
-# Visit http://localhost:8000
-```
-
-**Option 4: Node.js**
-```bash
-npx serve
-# or
-npx http-server
-```
-
-## ✨ What's Included
-
-### Pages
-- **Landing Page** (`index.html`) — Full homepage with all sections
-- **Product** (`product.html`) — Feature details and use cases
-- **Examples** (`examples.html`) — Example direction outputs
-- **Pricing** (`pricing.html`) — Pricing tiers
-- **About** (`about.html`) — Company/product philosophy
-- **Get Started** (`get-started.html`) — Interactive 3-step form
-- **Legal** (`legal.html`) — Terms and privacy policy
-
-### Features
-- ✅ Fully responsive design (mobile-first)
-- ✅ Custom CSS variables for easy theming
-- ✅ Smooth scroll navigation
-- ✅ Intersection Observer animations
-- ✅ Mobile menu toggle
-- ✅ Multi-step form with validation
-- ✅ Tag selection UI (single and multi-select)
-- ✅ No external dependencies
-
-## 🎨 Design System
-
-### Colors
-All colors use CSS variables defined in `:root`:
-
-```css
---background: hsl(220, 20%, 4%)
---foreground: hsl(220, 20%, 96%)
---primary: hsl(220, 99%, 61%)
---card: hsl(222, 22%, 8%)
---muted: hsl(220, 14%, 12%)
-```
-
-### Typography
-- **Display Font:** DM Serif Display (Google Fonts)
-- **Body Font:** Inter (Google Fonts)
-
-### Spacing
-Uses a consistent spacing scale:
-```css
---spacing-xs: 0.5rem   (8px)
---spacing-sm: 0.75rem  (12px)
---spacing-md: 1rem     (16px)
---spacing-lg: 1.5rem   (24px)
---spacing-xl: 2rem     (32px)
---spacing-2xl: 3rem    (48px)
-```
-
-## 🔧 Customization
-
-### Change Colors
-Edit CSS variables in `css/styles.css`:
-
-```css
-:root {
-  --primary: hsl(220, 99%, 61%);  /* Change to your brand color */
-  --background: hsl(220, 20%, 4%);
-}
-```
-
-### Modify Logo
-Replace `images/logo.svg` with your own logo (SVG recommended).
-
-The navbar expects a logo height of ~32px. Adjust in CSS:
-
-```css
-.logo {
-  height: 32px;  /* Adjust as needed */
-  width: auto;
-}
-```
-
-### Add New Pages
-1. Copy an existing HTML file as template
-2. Update navigation links
-3. Add content in the `<main>` section
-4. Include `<script src="js/main.js"></script>` before `</body>`
-
-## 📱 Responsive Breakpoints
-
-```css
-/* Mobile: < 768px (default styles) */
-/* Tablet and up: 768px+ */
-@media (max-width: 768px) {
-  /* Mobile overrides */
-}
-```
-
-## 🎯 JavaScript Features
-
-### main.js
-- Mobile menu toggle
-- Smooth scroll for anchor links
-- Intersection Observer for fade-in animations
-- Chat widget placeholder
-
-### get-started.js
-- Multi-step form navigation
-- Tag selection (single and multi-select)
-- Form data collection
-- Results display
-
-## 🚢 Deployment
-
-### GitHub Pages
-```bash
-git add .
-git commit -m "Deploy Artifex"
-git push origin main
-
-# Enable GitHub Pages in repo settings
-# Choose main branch → / (root)
-```
-
-### Netlify
-1. Drag and drop the entire folder to Netlify
-2. Or connect GitHub repo for automatic deploys
-
-### Vercel
-```bash
-vercel --prod
-```
-
-### Traditional Hosting
-Upload all files via FTP to your web host.
-
-## 🔍 SEO Ready
-
-All pages include:
-- Semantic HTML5 structure
-- Meta descriptions
-- Proper heading hierarchy
-- Alt text for images
-- Open Graph tags (index.html)
-
-## ♿ Accessibility
-
-- ARIA labels on interactive elements
-- Keyboard navigation support
-- Sufficient color contrast (WCAG AA)
-- Semantic HTML structure
-- Focus states on all interactive elements
-
-## 📦 What Was Changed from React
-
-| React Version | Vanilla Version |
-|--------------|-----------------|
-| React components | HTML pages |
-| Tailwind utility classes | Custom CSS classes |
-| React Router | Standard `<a>` links |
-| JSX | HTML |
-| useState/useEffect | Vanilla JavaScript |
-| Component props | HTML attributes |
-| Lucide React icons | Inline SVG or Unicode |
-
-## 🐛 Known Limitations
-
-- No client-side routing (full page reloads)
-- No state management across pages
-- Chat widget is placeholder only
-- Form doesn't actually submit data (demo only)
-- Examples use placeholder gradients (no real images)
-
-## 💡 Next Steps
-
-To turn this into a real product:
-
-1. **Backend Integration**
-   - Connect form to API endpoint
-   - Add user authentication
-   - Store project data in database
-
-2. **Real AI Integration**
-   - Connect to OpenAI/Claude API
-   - Generate actual mood boards
-   - Process user inputs through prompt engineering
-
-3. **Enhanced Features**
-   - Save user projects to localStorage
-   - Export functionality (download as ZIP)
-   - Social sharing features
-
-4. **Performance**
-   - Optimize images
-   - Minify CSS/JS
-   - Add service worker for offline support
-
-## 📄 License
-
-MIT License — use freely for portfolio or commercial projects.
-
-## 👩‍💻 Credits
-
-**Designed & Developed by:** Jasmine  
-**Original Framework:** React + TypeScript  
-**Converted to:** Vanilla HTML/CSS/JavaScript  
+</div>
 
 ---
 
+## 📖 About The Project
+
+Artifex is an AI-powered creative strategy engine that transforms project briefs into clear, actionable visual directions. Unlike traditional inspiration tools that show random references, Artifex generates strategic design directions complete with mood boards, color systems, typography pairings, and **client-ready rationale**.
+
+**The Problem:**  
+Designers and founders struggle with blank-canvas paralysis, explaining design decisions to clients, and translating strategy into visuals.
+
+**The Solution:**  
+Artifex analyzes your project brief and generates 3–5 distinct visual directions, each backed by strategic reasoning you can present with confidence.
+
+### ✨ Key Features
+
+- 🎨 **Strategic Visual Directions** — Multiple concepts tailored to your brief
+- 🖼️ **Curated Mood Boards** — Professional visual references for each direction
+- 🎨 **Professional Color Systems** — Export-ready palettes with HEX codes
+- ✍️ **Typography Pairings** — Font combinations with usage guidance
+- 💬 **Client-Ready Rationale** — Clear explanations for every design decision
+- 📤 **Export Options** — PNG, HEX, copy-ready strategy (Figma tokens planned)
+
+---
+
+## 🎯 Target Users
+
+| User Type | Primary Benefit |
+|-----------|-----------------|
+| **Designers** | Eliminate blank-canvas paralysis and speed up ideation |
+| **Founders** | Get professional design direction without hiring an agency |
+| **Agencies** | Generate multiple client-ready concepts in minutes |
+| **Students** | Learn strategic reasoning behind design decisions |
+
+---
+
+## 🚀 How It Works
+
+```
+1. Input Your Brief
+   └─ Define product, audience, tone, and goals
+
+2. AI Generates Directions
+   └─ Analyzes strategy and aesthetics together
+
+3. Apply or Export
+   └─ Use client-ready outputs immediately
+```
+
+### Example Output
+
+Each direction includes:
+- **Direction Name** (e.g., "Minimal Authority")
+- **Mood Board** — Visual reference grid
+- **Color Palette** — 5–7 colors with HEX codes
+- **Typography Pairing** — Display + UI font recommendations
+- **Strategic Explanation** — Why this direction works for your audience
+
+---
+
+## 🛠️ Built With
+
+- **Frontend:** HTML, CSS, JavaScript (Vanilla)
+- **Design:** Figma (complete design system)
+- **Deployment:** Webflow / Netlify (planned)
+- **AI Integration:** OpenAI API (planned)
+
+---
+
+## 🎨 Design System
+
+### Color Palette
+
+```css
+/* Dark SaaS Theme */
+--background: #0B0D10;
+--card-surface: #151822;
+--text-primary: #F5F6F7;
+--text-secondary: #8A8F98;
+--accent: #3A7AFE;
+```
+
+### Typography
+
+- **Display:** Luxury/Editorial font family (Playfair Display / Cormorant)
+- **UI:** Inter (400, 500, 600)
+
+### Components
+
+- Buttons (Primary, Secondary, Ghost)
+- Cards (Project, Direction, Example)
+- Forms (Inputs, Textareas, Selects)
+- Tabs (Navigation, Results view)
+- Modals (Exports, Settings)
+
+---
+
+## 📂 Project Structure
+
+```
+artifex/
+├── index.html              # Landing page
+├── product.html            # Product details
+├── examples.html           # Gallery
+├── pricing.html            # Pricing tiers
+├── about.html              # About Artifex
+├── app/
+│   ├── dashboard.html      # User dashboard
+│   ├── create.html         # Project creation flow
+│   └── results.html        # Generated directions view
+├── css/
+│   ├── reset.css           # CSS reset
+│   ├── variables.css       # Design tokens
+│   ├── components.css      # Component styles
+│   └── pages.css           # Page-specific styles
+├── js/
+│   ├── main.js             # Core functionality
+│   ├── dashboard.js        # Dashboard logic
+│   └── generator.js        # Direction generation (mock)
+└── assets/
+    ├── images/             # UI images
+    └── examples/           # Example project outputs
+```
+
+---
+
+## 🎯 Roadmap
+
+### Phase 1: Design System ✅
+- [x] Brand identity
+- [x] Color palette
+- [x] Typography system
+- [x] Component library
+
+### Phase 2: Marketing Site 🚧
+- [x] Site architecture
+- [x] Wireframes
+- [x] Copy writing
+- [ ] High-fidelity mockups
+- [ ] Build landing page
+- [ ] Build product pages
+
+### Phase 3: App Interface 📋
+- [ ] Dashboard UI
+- [ ] Project creation flow
+- [ ] Results view
+- [ ] Export functionality
+
+### Phase 4: AI Integration 🔮
+- [ ] API integration
+- [ ] Prompt engineering
+- [ ] Output formatting
+- [ ] Error handling
+
+### Phase 5: Launch 🚀
+- [ ] User testing
+- [ ] Performance optimization
+- [ ] SEO implementation
+- [ ] Analytics setup
+
+---
+
+## 💼 Portfolio Case Study
+
+This project demonstrates:
+
+- ✅ **End-to-end product thinking** — From problem to solution
+- ✅ **UX research & strategy** — User personas, journey mapping
+- ✅ **Visual design systems** — Scalable, production-ready components
+- ✅ **AI/ML interface design** — Designing for generative outputs
+- ✅ **SaaS architecture** — Dashboard, auth flows, data management
+- ✅ **Developer handoff** — Complete specs and documentation
+
+**Role:** Product Designer & UX Strategist  
+**Timeline:** 4 weeks (Concept → Design System)  
+**Status:** Design Complete | Development In Progress
+
+[View Full Case Study →](case-study-url)
+
+---
+
+## 📸 Screenshots
+
+### Landing Page
+<img width="1919" height="1076" alt="Screenshot 2026-02-08 at 2 33 08 PM" src="https://github.com/user-attachments/assets/43b12c34-ed95-47fc-ab36-ec8e083b59b0" />
+
+### Output Preview
+<img width="1919" height="1076" alt="Screenshot 2026-02-08 at 2 32 33 PM" src="https://github.com/user-attachments/assets/4e79fb4d-e8d4-4f6e-adaf-6ac0a2f7dca6" />
+
+---
+
+## 🎓 Key Learnings
+
+1. **Reasoning beats randomness** — Users value strategic explanations over purely aesthetic outputs
+2. **Clarity builds trust** — Transparent AI processes increase user confidence
+3. **Simplicity scales** — Feature restraint creates better experiences than feature bloat
+4. **Strategy first** — Design tools should start with "why" before "what"
+
+---
+
+## 📝 Documentation
+
+- [Complete Product Spec](docs/product-spec.md)
+- [Design System Guide](docs/design-system.md)
+- [Component Library](docs/components.md)
+- [Development Setup](docs/dev-setup.md)
+- [API Documentation](docs/api.md) (Coming soon)
+
+---
+
+## 🤝 Contributors
+
+- Jasmine Black — Product Design, UI/UX, Strategy
+- Jamone Kelly — Frontend / Backend Development
+
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+
+## 👩‍💻 About The Designer
+
+**Jasmine** — UI/UX Designer & Developer
+
+I'm a designer who codes, currently transitioning from graphic design to front-end development. Artifex represents my approach to solving real problems I've experienced: the gap between strategic thinking and visual execution in design work.
+
+- Portfolio: [jasmineblack.vercel.app](https://jasmineblack.vercel.app)
+- LinkedIn: [linkedin.com/in/Artist89](https://inkedin.com/in/Artist89)
+- Email: jazzblackartist@gmail.com
+
+---
+
+## 🙏 Acknowledgments
+
+- Design inspiration: Linear, Notion, Vercel, Midjourney
+- Typography: Google Fonts (Inter)
+- Icons: Lucide Icons
+- Community: Designer Twitter, UX Stack Exchange
+
+---
+
+<div align="center">
+
+**Built with ❤️ by Jasmine**
+
+If this project helped you, please consider giving it a ⭐
+
+[Back to Top ↑](#artifex)
+
+</div>
 **Questions?** Open an issue or contact me!
